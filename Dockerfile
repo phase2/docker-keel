@@ -59,7 +59,11 @@ ENV HOME /root
 # https://git-scm.com/docs/git-config#git-config-corepreloadIndex
 RUN git config --global core.preloadindex true
 
-# Run the s6-based init.
+# Run the init script.
+# This script can be customized for extending Docker images by:
+# 1. Copy the script to your image repo.
+# 2. Modify the script as needed.
+# 3. In your Dockerfile, copy the script to the filesystem root.
 ENTRYPOINT ["/init"]
 
 # Set up a standard volume for logs.
