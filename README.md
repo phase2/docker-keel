@@ -2,7 +2,7 @@
 
 > Foundational image on which to base cross-functional command-line containers.
 
-[![GitHub tag](https://img.shields.io/github/tag/phase2/docker-keel.svg)](https://github.com/phase2/docker-keel)[![Docker Stars](https://img.shields.io/docker/stars/r/outrigger/keel.svg)](https://hub.docker.com/r/outrigger/keel)[![Docker Pulls](https://img.shields.io/docker/pulls/outrigger/keel.svg)](https://hub.docker.com/r/outrigger/keel)[![](https://images.microbadger.com/badges/image/outrigger/keel:latest.svg)](https://microbadger.com/images/outrigger/keel:latest "Get your own image badge on microbadger.com")
+[![GitHub tag](https://img.shields.io/github/tag/phase2/docker-keel.svg)](https://github.com/phase2/docker-keel)[![Docker Stars](https://img.shields.io/docker/stars/r/outrigger/keel.svg)](https://hub.docker.com/r/outrigger/keel)[![Docker Pulls](https://img.shields.io/docker/pulls/outrigger/keel.svg)](https://hub.docker.com/r/outrigger/keel)[![](https://images.microbadger.com/badges/image/outrigger/keel:dev.svg)](https://microbadger.com/images/outrigger/keel:dev "Get your own image badge on microbadger.com")
 
 This image provides the many development tools necessary to build and operate
 applications the Outrigger way, bundled with solid selection of system packages
